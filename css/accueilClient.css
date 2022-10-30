@@ -1,0 +1,30 @@
+.grille {
+    max-width: 1400px;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    justify-content: center;
+    grid-gap: 13px;
+    grid-column: 89px;
+}
+
+.card {
+    width: 270px;
+    height: 320px;
+    transition: transform 0.4s;
+}
+
+.card img{
+    height: 160px;
+}
+
+.card-footer{
+    background-color: white;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
